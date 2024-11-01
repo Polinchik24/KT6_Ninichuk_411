@@ -23,3 +23,5 @@ C:\Users\comcuru\Desktop\KT6_Ninichuk_411\petshop2.0\petshop2.0\obj\Debug\petsho
 C:\Users\comcuru\Desktop\KT6_Ninichuk_411\petshop2.0\petshop2.0\obj\Debug\petshop2.0.csproj.CopyComplete
 C:\Users\comcuru\Desktop\KT6_Ninichuk_411\petshop2.0\petshop2.0\obj\Debug\petshop2.0.exe
 C:\Users\comcuru\Desktop\KT6_Ninichuk_411\petshop2.0\petshop2.0\obj\Debug\petshop2.0.pdb
+C:\Users\comcuru\Desktop\KT6_Ninichuk_411\petshop2.0\petshop2.0\obj\Debug\Pages\ListView.g.cs
+C:\Users\comcuru\Desktop\KT6_Ninichuk_411\petshop2.0\petshop2.0\obj\Debug\Pages\ListView.baml

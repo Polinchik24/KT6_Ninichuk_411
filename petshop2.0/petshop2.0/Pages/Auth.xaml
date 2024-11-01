@@ -8,7 +8,27 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Auth">
 
-    <Grid>
+    <Grid Background="White">
+        <StackPanel>
+             <Label Content="Логин:" FontSize="28"
+               HorizontalAlignment="Center" VerticalAlignment="Center">
+             </Label>
+            <TextBox Height="50" Width="300" x:Name="login"></TextBox>
+             <Label Content="Пароль:" FontSize="28"
+               HorizontalAlignment="Center" VerticalAlignment="Center">
+             </Label>
+            <PasswordBox Height="50" Width="300" x:Name="password"></PasswordBox>
+            <Button  Height="50" Width="300"
+                 Margin="250,20" x:Name="button_1"
+                 Content="Войти" Click="button_1_Click"
+                 Background="#FF498C51" RenderTransformOrigin="0.5,1.34"/>
+            <Button  Height="50" Width="300"
+                 Margin="20" x:Name="button_3"
+                 Content="Гость" Click="button_3_Click"
+                 Background="#FF498C51">
+            </Button>
+        </StackPanel>
+        
         
     </Grid>
 </Page>

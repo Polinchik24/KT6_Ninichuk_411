@@ -23,8 +23,13 @@ namespace petshop2._0
         public MainWindow()
         {
             InitializeComponent();
-            Classes.Navigate.ActiveMain = MainFrame;
+            Classes.Navigation.ActiveMain = MainFrame;
+            Classes.Navigation.ActiveMain.Navigate(new Pages.Auth());
+        }
 
+        private void button_v_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

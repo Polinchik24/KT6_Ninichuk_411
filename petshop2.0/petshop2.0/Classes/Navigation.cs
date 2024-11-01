@@ -7,7 +7,7 @@ using System.Windows.Controls;
 
 namespace petshop2._0.Classes
 {
-    class Navigate
+    class Navigation
     {
         public static Frame ActiveMain { get; set; }
     }

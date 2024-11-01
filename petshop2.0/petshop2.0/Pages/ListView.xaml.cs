@@ -16,23 +16,18 @@ using System.Windows.Shapes;
 namespace petshop2._0.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для Auth.xaml
+    /// Логика взаимодействия для ListView.xaml
     /// </summary>
-    public partial class Auth : Page
+    public partial class ListView : Page
     {
-        public Auth()
+        public ListView()
         {
             InitializeComponent();
         }
 
-        private void button_1_Click(object sender, RoutedEventArgs e)
+        private void button_2_Click(object sender, RoutedEventArgs e)
         {
-            Classes.Navigation.ActiveMain.Navigate(new Pages.ListView());
-        }
-
-        private void button_3_Click(object sender, RoutedEventArgs e)
-        {
-            Classes.Navigation.ActiveMain.Navigate(new Pages.ListView());
+            Classes.Navigation.ActiveMain.Navigate(new Pages.Auth());
 
         }
     }

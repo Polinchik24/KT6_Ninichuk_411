@@ -12,6 +12,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="70"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" Background="#FF76E383">
             <Label Content="Магазин для животных"
@@ -22,6 +23,8 @@
                    Margin="10"/>
         </Grid>
         <Frame Grid.Row="1" x:Name="MainFrame"
-               NavigationUIVisibility="Hidden"></Frame>
+               NavigationUIVisibility="Hidden">
+        </Frame>
+        
     </Grid>
 </Window>
